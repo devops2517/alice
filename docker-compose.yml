@@ -14,9 +14,3 @@ services:
 #      - ./build/boxfuse-sample-java-war-hello/target/hello-1.0.war:/usr/local/tomcat/webapps/hello.war
 #    depends_on:
 #      - builder
-  Footer
-  © 2023 GitHub, Inc.
-  Footer navigation
-  Terms
-  Privacy
-  Security

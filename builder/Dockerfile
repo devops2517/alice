@@ -3,4 +3,5 @@ WORKDIR /build
 
 RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git \
     && cd boxfuse-sample-java-war-hello \
+    && maven clean \
     && mvn package -DskipTests

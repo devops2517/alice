@@ -2,12 +2,12 @@ version: "3.7"
 
 services:
   builder:
-    build: alice/builder
+    build: builder
     volumes:
       - ./build/boxfuse-sample-java-war-hello/target/hello-1.0.war:/usr/local/tomcat/webapps/hello-1.0.war
 
   prod:
-    build: alice/prod
+    build: prod
     ports:
       - "8080:8080"
 #    volumes:
